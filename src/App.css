@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+body{
+  overflow-x: hidden;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Input{
+ border: none;
+ width: 400px;
+ height: 38px;
+ padding: 5px;
+ outline: none;
+}
+
+
+.MainDiv{
+
+}
+form{
+  border: 2px solid aqua;
+  width: 440px;
+  margin: auto;
+  
+}
+
+.button{
+  margin: 10px;
+}
+.InputFeild{
+
+  position: absolute;
+  top: 2%;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.img{
+  /* margin-top: ; */
+  height: 230px;
+  min-height: 230px;
+  min-width: 350px;
+  max-height: 230px;
+  max-width: 350px;
+  width: 350px;
 }
